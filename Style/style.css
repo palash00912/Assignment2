@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* shared style */
+.display-flex {
+  display: flex;
+}
+/* shared color style */
+.text-light {
+  color: #ffffff;
+}
+.text-orang {
+  color: #e6533c;
+}
+
+/* For Banner Part */
+.banner {
+  background-color: #111111;
+}
+.btn-primary{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    justify-content: center;
+    border-radius: 42px;
+    margin: 0px 14px;
+}
+.btn-secondary{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    justify-content: center;
+    border-radius: 42px;
+    margin: 0px 14px;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  font-family: "Inter", sans-serif;
+  /* font-size: 36px; */
+  font-weight: 800;
+  font-size: 3rem;
+  color: #e6533c;
+  margin-left: 12rem;
+}
+.brand span{
+ 
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 6rem;
+  padding-right: 30px;
+}
+.banner-detiles{
+    justify-content: space-between;
+}
+.banner-img{
+    margin: 0  214px;
+}
+.banner-content{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 520px;
+    height: 282px;
+    margin-left: 190px;
+}
+.header-title{
+    font-size: 78px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.header-content{
+    font-size: 16px;
+}
