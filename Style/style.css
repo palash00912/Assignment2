@@ -216,7 +216,7 @@
 /* run box */
 .banner-header{
   width: 1444px;
-  height: 4650px;
+  height: 380px;
   padding-top: 4rem;
   background-color: black;
 }
@@ -263,6 +263,54 @@
   border-radius: 18px;
 background: rgb(34, 34, 34); */
 }
+/* bmi box */
+.bmi-box{
+  width: 1236px;
+  height: 1000px;
+  background-color: black;
+  padding-left: 13rem;
+}
+.bmi-title{
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  margin-top: -20px;
+  margin-bottom: .5rem;
+  padding-top: 4rem;
+}
+.bmi-box img{
+  /* display: grid; */
+  grid-template-columns: repeat(3, 1fr);
+  width: 350px;
+  height: 250px;
+  /* padding-left: 35px; */
+}
+/* .bmi-box2{
+  margin-left: 25rem;
+  width: 671px;
+  height: 120px;
+  border: 2px solid red;
+} */
+ .bmi-bottom{
+  width: 671px;
+  height: 150px;
+  /* border: 2px solid red; */
+  margin-top: 7rem;
+  padding-left: 15rem;
+ }
+ .cal-title{
+  font-size: 34px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: .5rem;
+ }
+ /* bmi chart */
+ .bmi-chart{
+  width: 1444px;
+  height: 487px;
+  background-color: black;
+ }
+ 
 /* responsive media */
 @media (max-width: 576px) {
   .navbar,
