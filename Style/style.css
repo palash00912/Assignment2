@@ -373,6 +373,19 @@ background: rgb(34, 34, 34); */
   height: 489px;
   background-color:#0a0909c3;
 }
+.footer-body{
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+  
+}
+.footer-bar> li{
+  font-size: 23px;
+  font-weight: 400;
+  /* text-decoration: none;
+  list-style: none; */
+}
+
 .footer-title{
   font-size: 70px;
   font-weight: 800;
@@ -389,10 +402,21 @@ background: rgb(34, 34, 34); */
   font-size: 32px;
   font-weight: 700;
   color: white;
-  /* padding-left: 5rem; */
 }
  ul{
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
+  list-style-type: none;
+}
+.streat-line{
+  width: 1059.5px;
+  height: 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1);
+  margin: 10rem 12rem 0;
+}
+.text-reserved{
+  text-align: center;
+  padding-top: 1.5rem;
 }
  
 /* responsive media */
