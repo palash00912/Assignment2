@@ -373,6 +373,27 @@ background: rgb(34, 34, 34); */
   height: 489px;
   background-color:#0a0909c3;
 }
+.footer-title{
+  font-size: 70px;
+  font-weight: 800;
+  color: #E6533C;
+  margin-bottom: .5rem;
+}
+.footer-title2{
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  /* margin-left: 5rem; */
+}
+.footer-title3{
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  /* padding-left: 5rem; */
+}
+ ul{
+  padding-left: 5rem;
+}
  
 /* responsive media */
 @media (max-width: 576px) {
