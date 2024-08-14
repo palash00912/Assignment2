@@ -152,6 +152,7 @@
 .header-title {
   font-size: 78px;
   font-weight: 900;
+  margin-top: 2rem;
   color: rgb(255, 255, 255);
 }
 .header-title span {
@@ -161,3 +162,113 @@
 .header-content {
   font-size: 16px;
 }
+/* group habits */
+.group-habits{
+  width: 1444px;
+  height: 452px;
+  background-color: black;
+  /* width: 1044px;
+  height: 452px;
+  justify-items: center; */
+}
+.group-habits .group-title{
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.group-banner{
+  padding-top: 2rem;
+  margin: 0 9rem;
+}
+.group-description{
+  color:rgba(255, 255, 255, 0.5);
+  text-align: center;
+
+}
+.group-card{
+  width: 231px;
+  height: 274px;
+  margin-left: 3rem;
+}
+.group-card img{
+  border-radius: 50%;
+}
+.title{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+.description{
+  color:rgba(255, 255, 255, 0.5)
+}
+/* responsive media */
+@media (max-width: 576px) {
+  .navbar,
+  .group-title,
+  .group-description,
+  .group-banner {
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .banner {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .banner-content {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .header-title {
+    font-size: 2.5rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+
+  .banner-img {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .banner-img img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  #button-1,
+  #button-2 {
+    position: static;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+/*  */
