@@ -368,6 +368,11 @@ background: rgb(34, 34, 34); */
   align-items: center;
   margin-bottom: none;
 }
+.footer{
+  width: 1444px;
+  height: 489px;
+  background-color:#0a0909c3;
+}
  
 /* responsive media */
 @media (max-width: 576px) {
