@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* shared style */
 .display-flex {
@@ -17,7 +16,13 @@
 
 /* For Banner Part */
 .banner {
-  background-color: #111111;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(15, 15, 15, .75) 100%
+  );
+  width: 1440px;
+  height: 715px;
 }
 .btn-primary {
   background-color: rgb(230, 83, 60);
@@ -76,40 +81,65 @@
   width: 30px;
   height: 30px;
 } */
-.button-icon span{
-    font-family: "Inter Tight", sans-serif;
-    width: 68px;
-    height: 24px;
-    font-weight: 900;
+.button-icon span {
+  font-family: "Inter Tight", sans-serif;
+  width: 68px;
+  height: 24px;
+  font-weight: 900;
+}
+#button-1 {
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 150px;
+  margin-top: -390px;
+}
+#button-2 {
+  background-color: rgb(42, 39, 39);
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 20px;
+  margin-top: 140px;
+}
+.navbar .logo {
+  color: #FF4C4C;
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-menu{
+  margin-left: 120px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
+.navbar ul li {
+  margin-left: 20px;
 }
-.navbar {
-  justify-content: space-between;
-  align-items: center;
-}
-.brand {
-  font-family: "Edu VIC WA NT Beginner", cursive;
-  font-weight: 800;
-  font-size: 3rem;
-  color: #e6533c;
-  margin-left: 12rem;
-}
-.nav-item {
-  list-style: none;
-  margin-right: 30px;
-}
-.nav-link {
-  font-size: 18px;
-  font-weight: 400;
+
+.navbar ul li a {
+  color: white;
   text-decoration: none;
-  margin-right: 6rem;
-  padding-right: 30px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
 }
+
+.navbar ul li a.active, .navbar ul li a:hover {
+  background-color: #FF4C4C;
+}
+
 .banner-detiles {
   justify-content: space-between;
 }
 .banner-img {
   margin: 0 214px;
+  /* width: 100%; */
+  margin-top: 2rem;
 }
 .banner-content {
   flex-direction: column;
