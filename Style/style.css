@@ -13,6 +13,9 @@
 .text-orang {
   color: #e6533c;
 }
+.text-light-gray{
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /* For Banner Part */
 .banner {
@@ -102,6 +105,10 @@
   margin-right: 20px;
   margin-top: 140px;
 }
+.navbar{
+  justify-content: space-between;
+  text-align: center;
+}
 .navbar .logo {
   color: #FF4C4C;
   font-size: 24px;
@@ -180,7 +187,7 @@
 }
 .group-banner{
   padding-top: 2rem;
-  margin: 0 9rem;
+  margin: 0 9rem 5rem 9rem ;
 }
 .group-description{
   color:rgba(255, 255, 255, 0.5);
@@ -204,6 +211,57 @@
 }
 .description{
   color:rgba(255, 255, 255, 0.5)
+}
+
+/* run box */
+.banner-header{
+  width: 1444px;
+  height: 4650px;
+  padding-top: 4rem;
+  background-color: black;
+}
+.banner-og{
+  width: 1060px;
+  height: 371px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:  rgb(34, 34, 34);
+  margin-left: 13rem;
+  border-radius: 18px;
+}
+.banner-tag{
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  margin-bottom: .5rem;
+}
+.banner-obj{
+  font-size: 14px;
+}
+.banner-image img {
+  width: 390px;
+  height: 390px;
+  /* max-width: 120%; */
+  height: auto;
+  border-radius: 10px;
+  margin-right: -70px;
+}
+/* .run-box{
+  width: 1444px;
+  height: 452px;
+  background-color: black;
+  /* margin-top: 5rem; */
+  padding-top: 5rem;
+} */
+.box-shape{
+  /* position: static;
+  width: 1060px;
+  height: 371px;
+  padding-top: 5rem;
+  margin-left: 12rem;
+  align-self: stretch;
+  border-radius: 18px;
+background: rgb(34, 34, 34); */
 }
 /* responsive media */
 @media (max-width: 576px) {
