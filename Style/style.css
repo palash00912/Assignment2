@@ -10,6 +10,9 @@
 .text-light {
   color: #ffffff;
 }
+.text-bright{
+  color: #FFFFFF;
+}
 .text-orang {
   color: #e6533c;
 }
@@ -310,6 +313,61 @@ background: rgb(34, 34, 34); */
   height: 487px;
   background-color: black;
  }
+ /* bmi chart */
+ .bmi-chart{
+  width: 1440;
+  height: 650;
+  margin-top: -29px;
+  background-color: rgb(34, 34, 34);
+ }
+ .calculation-chart{
+  padding: 5rem 8rem 0rem;
+ }
+ .bmi-chart-title{
+  font-size: 28px;
+  font-weight: 900;
+ }
+ .calculator-box{
+  width: 577px;
+  height: 386px;
+  /* border: 2px solid red; */
+  table,td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+  }
+  th,td{
+    padding: 8px 10px;
+  }
+  td{
+    text-align: center;
+    color: #FFFFFF80;
+  }
+  table{
+    border-collapse: collapse;
+  }
+ }
+ .form-cal{
+  width: 577px;
+  height: 386px;
+  /* border: 1px solid red; */
+  /* margin-top: -30px; */
+  
+ }
+ .form-title{
+  font-size: 28px;
+  font-weight: 900;
+ }
+ .calc-form{
+  padding-left: 12rem;
+  padding-top: -9rem;
+ }
+ .bmi-calculator form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: none;
+}
  
 /* responsive media */
 @media (max-width: 576px) {
